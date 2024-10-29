@@ -16,7 +16,7 @@ public class DnaService {
         this.dnaRepository = dnaRepository;
     }
 
-    public boolean isMutant(String[] dna) {
+    public static boolean isMutant(String[] dna) {
         int n = dna.length;
         int count = 0;
 
@@ -45,7 +45,7 @@ public class DnaService {
         return count > 1;
     }
 
-    private int countSequences(String sequence) {
+    private static int countSequences(String sequence) {
         int count = 0;
         for (int i = 0; i <= sequence.length() - 4; i++) {
             if (sequence.charAt(i) == sequence.charAt(i + 1) &&
@@ -57,7 +57,7 @@ public class DnaService {
         return count;
     }
 
-    private int countDiagonalSequences(String[] dna, int startRow, int startCol, int rowIncrement, int colIncrement) {
+    private static int countDiagonalSequences(String[] dna, int startRow, int startCol, int rowIncrement, int colIncrement) {
         int count = 0;
         int n = dna.length;
         int row = startRow;

@@ -27,9 +27,9 @@ El proyecto ha sido deployado a Render y puede ser accedido mediante el siguient
 
 https://parcial1-desarrollo-software-mutantes.onrender.com
 
-# OPEN API
+## OPEN API
 
-# https://parcial1-desarrollo-software-mutantes.onrender.com/swagger-ui/index.html
+https://parcial1-desarrollo-software-mutantes.onrender.com/swagger-ui/index.html
 
 ### Endpoints
 
